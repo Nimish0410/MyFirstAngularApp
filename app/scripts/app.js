@@ -16,11 +16,11 @@ angular
     $routeProvider.
       when('/About', {
     templateUrl: '../views/About.html',
-    controller: 'controllers/AboutCtrl'
+    controller: 'AboutCtrl'
       })
       .when('/',{
           templateUrl: '../views/main.html',
-          controller: 'controllers/MainCtrl'
+          controller: 'MainCtrl'
       });
-}]);;
+}]);
 
